@@ -8,3 +8,15 @@
   padding: 2rem;
   background-color: $customcolor;
 }
+.tweeter-ctr {
+  align-self: flex-end;
+  &:hover {
+    .tweeter-ico {
+      fill: #1da1f2;
+    }
+  }
+}
+.tweeter-ico {
+  width: 2rem;
+  fill: #000;
+}
